@@ -1,24 +1,27 @@
-import React, { useRef } from 'react'
-import NavBar from '../components/NavBar'
-import Footer from '../components/Footer'
-import Main from '../components/Main'
-import Destinations from '../components/Destinations'
+import React, { useRef, useState } from "react";
+import NavBar from "../components/NavBar";
+import Footer from "../components/Footer";
+import Main from "../components/Main";
+import Destinations from "../components/Destinations";
+import Recommended from "../components/Recommended";
 
 function Home() {
+  
+
 
   return (
     <div>
-      <NavBar/>
+      <NavBar />
       <main>
-          <Main/>
-          <div>
-          <Destinations/>
-          </div>
-          
+        <Main />
+        <div>
+          <Destinations />
+          <Recommended />
+        </div>
       </main>
-      <Footer/>
+      <Footer />
     </div>
-  )
+  );
 }
 
-export default Home
+export default Home;

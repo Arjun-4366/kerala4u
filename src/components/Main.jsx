@@ -2,9 +2,10 @@ import React, { useRef } from "react";
 import "../index.css";
 import Search from "./Search";
 import { Link } from "react-scroll";
+
 function Main() {
   return (
-    <div className="bg-hero bg-cover bg-center  bg-no-repeat border-transparent h-screen relative text-white lg:w-full">
+    <div className="bg-hero bg-cover bg-center  bg-no-repeat border-transparent flex flex-col justify-center items-center h-screen relative text-white lg:w-full">
       <div className="lg:w-full m-auto h-full flex flex-col justify-center px-5">
         <h1 className="lg:text-5xl text-3xl lg:text-left text-center font-bold font-mono text-white pt-2">
           Experience kerala...
@@ -22,9 +23,11 @@ function Main() {
             </Link>
           </span>
         </div>
+       
       </div>
       <Search />
     </div>
+    
   );
 }
 

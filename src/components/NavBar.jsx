@@ -34,8 +34,8 @@ function NavBar() {
                 <li className="hover:text-green-700 hover:text-lg hover:transition-all duration-500 py-2 leading-snug" onClick={()=>navigate('stay')}>Where To Stay</li>
                 {/* <li className="hover:text-green-700 hover:text-lg hover:transition-all duration-500 py-2 leading-snug" onClick={()=>navigate('guide')}>Travel Guide</li> */}
                 <li className="py-2 flex text-white font-medium items-center leading-snug">
-                    <button className="bg-[#4f61ae] rounded-full px-4 py-1 flex items-center hover:text-green-400 transition-all duration-500 hover:bg-[#8383cd]">
-                      SignUp
+                    <button className="bg-[#4f61ae] rounded-full px-4 py-1 flex items-center hover:text-green-400 transition-all duration-500 hover:bg-[#8383cd]" onClick={()=>navigate('login')}>
+                      SignIn
                     </button>
                 </li>
             </ul>

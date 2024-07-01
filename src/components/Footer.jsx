@@ -8,7 +8,7 @@ function Footer() {
   const navigate = useNavigate();
   return (
     <footer>
-      <section className="flex flex-col bg-[#a0a0e1] pt-7">
+      <section className="flex flex-col bg-[#b5b5b7] pt-7">
         <div className="lg:flex  justify-between pb-8 px-8">
           <div className="lg:flex justify-between m-auto lg:w-full lg:px-0 px-3">
             <div className="">
@@ -32,40 +32,40 @@ function Footer() {
             </div>
             <div>
                 <p className="text-black font-medium lg:mb-0 lg:mt-0 mt-6 uppercase">Support</p>
-                <p className="text-white mt-2 text-sm cursor-pointer hover:text-green-900 hover:underline">Contact</p>
-                <p className="text-white mt-2 text-sm cursor-pointer hover:text-green-900 hover:underline">Blog</p>
-                <p className="text-white mt-2 text-sm cursor-pointer hover:text-green-900 hover:underline">Help</p>
+                <p className="text-black mt-2 text-sm cursor-pointer hover:text-green-900 hover:underline">Contact</p>
+                <p className="text-black mt-2 text-sm cursor-pointer hover:text-green-900 hover:underline">Blog</p>
+                <p className="text-black mt-2 text-sm cursor-pointer hover:text-green-900 hover:underline">Help</p>
             </div>
             <div>
                 <p className="text-black font-medium lg:mb-0 lg:mt-0 mt-6 uppercase">Travel Hub</p>
-                <p className="text-white mt-2 text-sm cursor-pointer hover:text-green-900 hover:underline">Kerala at a glance</p>
-                <p className="text-white mt-2 text-sm cursor-pointer hover:text-green-900 hover:underline">Travel Care</p>
-                <p className="text-white mt-2 text-sm cursor-pointer hover:text-green-900 hover:underline">Where to Stay</p>
-                <p className="text-white mt-2 text-sm cursor-pointer hover:text-green-900 hover:underline">Travel Tips</p>
+                <p className="text-black mt-2 text-sm cursor-pointer hover:text-green-900 hover:underline">Kerala at a glance</p>
+                <p className="text-black mt-2 text-sm cursor-pointer hover:text-green-900 hover:underline">Travel Care</p>
+                <p className="text-black mt-2 text-sm cursor-pointer hover:text-green-900 hover:underline">Where to Stay</p>
+                <p className="text-black mt-2 text-sm cursor-pointer hover:text-green-900 hover:underline">Travel Tips</p>
             </div>
             <div>
                 <p className="text-black font-medium lg:mb-0 lg:mt-0 mt-6 uppercase">Nature</p>
-                <p className="text-white mt-2 text-sm cursor-pointer hover:text-green-900 hover:underline">Hills</p>
-                <p className="text-white mt-2 text-sm cursor-pointer hover:text-green-900 hover:underline">Backwaters</p>
-                <p className="text-white mt-2 text-sm cursor-pointer hover:text-green-900 hover:underline">Beaches</p>
-                <p className="text-white mt-2 text-sm cursor-pointer hover:text-green-900 hover:underline">Wildlife</p>
-                <p className="text-white mt-2 text-sm cursor-pointer hover:text-green-900 hover:underline">Waterfalls</p>
+                <p className="text-black mt-2 text-sm cursor-pointer hover:text-green-900 hover:underline">Hills</p>
+                <p className="text-black mt-2 text-sm cursor-pointer hover:text-green-900 hover:underline">Backwaters</p>
+                <p className="text-black mt-2 text-sm cursor-pointer hover:text-green-900 hover:underline">Beaches</p>
+                <p className="text-black mt-2 text-sm cursor-pointer hover:text-green-900 hover:underline">Wildlife</p>
+                <p className="text-black mt-2 text-sm cursor-pointer hover:text-green-900 hover:underline">Waterfalls</p>
             </div>
             <div>
                 <p className="text-black font-medium lg:mb-0 lg:mt-0 mt-6 uppercase">Places</p>
-                <p className="text-white mt-2 text-sm cursor-pointer hover:text-green-900 hover:underline">Munnar</p>
-                <p className="text-white mt-2 text-sm cursor-pointer hover:text-green-900 hover:underline">Wayanad</p>
-                <p className="text-white mt-2 text-sm cursor-pointer hover:text-green-900 hover:underline">Kovalam</p>
-                <p className="text-white mt-2 text-sm cursor-pointer hover:text-green-900 hover:underline">Periyar</p>
-                <p className="text-white mt-2 text-sm cursor-pointer hover:text-green-900 hover:underline">Varkala</p>
+                <p className="text-black mt-2 text-sm cursor-pointer hover:text-green-900 hover:underline">Munnar</p>
+                <p className="text-black mt-2 text-sm cursor-pointer hover:text-green-900 hover:underline">Wayanad</p>
+                <p className="text-black mt-2 text-sm cursor-pointer hover:text-green-900 hover:underline">Kovalam</p>
+                <p className="text-black mt-2 text-sm cursor-pointer hover:text-green-900 hover:underline">Periyar</p>
+                <p className="text-black mt-2 text-sm cursor-pointer hover:text-green-900 hover:underline">Varkala</p>
             </div>
             <div>
                 <p className="text-black font-medium lg:mb-0 lg:mt-0 mt-6 uppercase">Specialities</p>
-                <p className="text-white mt-2 text-sm cursor-pointer hover:text-green-900 hover:underline">Ayurveda</p>
-                <p className="text-white mt-2 text-sm cursor-pointer hover:text-green-900 hover:underline">Monsoon</p>
-                <p className="text-white mt-2 text-sm cursor-pointer hover:text-green-900 hover:underline">Houseboat</p>
-                <p className="text-white mt-2 text-sm cursor-pointer hover:text-green-900 hover:underline">Kerala Food</p>
-                <p className="text-white mt-2 text-sm cursor-pointer hover:text-green-900 hover:underline">Festivals</p>
+                <p className="text-black mt-2 text-sm cursor-pointer hover:text-green-900 hover:underline">Ayurveda</p>
+                <p className="text-black mt-2 text-sm cursor-pointer hover:text-green-900 hover:underline">Monsoon</p>
+                <p className="text-black mt-2 text-sm cursor-pointer hover:text-green-900 hover:underline">Houseboat</p>
+                <p className="text-black mt-2 text-sm cursor-pointer hover:text-green-900 hover:underline">Kerala Food</p>
+                <p className="text-black mt-2 text-sm cursor-pointer hover:text-green-900 hover:underline">Festivals</p>
             </div>
           </div>
         
