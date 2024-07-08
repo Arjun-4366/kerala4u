@@ -7,7 +7,6 @@ function Experience() {
 
   return (
     <div>
-      <NavBar />
       <ExperienceKerala/>
        <Footer/>
     </div>

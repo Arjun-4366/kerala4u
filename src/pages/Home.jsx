@@ -8,10 +8,8 @@ import Recommended from "../components/Recommended";
 function Home() {
   
 
-
   return (
     <div>
-      <NavBar />
       <main>
         <Main />
         <div>
