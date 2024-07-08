@@ -5,8 +5,8 @@ import { Link } from "react-scroll";
 
 function Main() {
   return (
-    <div className="bg-hero bg-cover bg-center  bg-no-repeat border-transparent flex flex-col justify-center items-center h-screen relative text-white lg:w-full">
-      <div className="lg:w-full m-auto h-full flex flex-col justify-center px-5">
+    <div className="bg-hero bg-cover bg-center  bg-no-repeat border-transparent flex flex-col justify-center items-center  h-screen relative text-white lg:w-full">
+      <div className="lg:w-full m-auto h-full flex flex-col mt-5 px-5 justify-center ">
         <h1 className="lg:text-5xl text-3xl lg:text-left text-center font-bold font-mono text-white pt-2">
           Experience kerala...
           <br />
